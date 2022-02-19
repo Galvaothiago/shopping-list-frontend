@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Roboto', 'Ubuntu', sans-serif;
+        font-family: 'Poppins', 'Ubuntu', sans-serif;
     }
 
     html {
@@ -24,7 +24,7 @@ export const ContainerApp = styled.div`
 `
 
 export const colors = {
-    backgroundLight: '#b3001b',
+    backgroundLight: '#FCFCFC',
     backgroundDark: '#262626',
     grayLight: '#d0cfcf',
     purpleLight: '#CDA4F0',
