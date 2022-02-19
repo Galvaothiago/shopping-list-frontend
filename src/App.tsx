@@ -1,8 +1,10 @@
-export default function App() {
+import { Login } from "./components/login";
+import { ContainerApp } from "./global";
 
+export default function App() {
   return (
-    <div className="App">
-     HellO World
-    </div>
+    <ContainerApp>
+      <Login />
+    </ContainerApp>
   )
 }
