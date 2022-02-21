@@ -17,14 +17,16 @@ export const Container = styled.div`
 export const ContainerLogin = styled.div`
     max-width: 38rem;
     width: 100%;
-    height: 36rem;
+    height: 34rem;
 
     background: ${colors.backgroundLight};
+    border-radius: 85px 5px 85px 5px;
+    /* backdrop-filter: blur(10px); */
 `
 
 export const Made = styled.a`
     width: auto;
-    color: white;
+    color: ${colors.purpleLight};
     font-size: .8rem;
 
     padding-bottom: .5rem;
